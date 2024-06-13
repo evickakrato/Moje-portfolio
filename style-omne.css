@@ -1,0 +1,39 @@
+.omne {
+  padding: 5rem;
+  width: fit-content;
+}
+.block-omne {
+  display: flex;
+  padding: 3rem;
+  margin-bottom: 3rem;
+  gap: 3rem;
+
+  background: #fff;
+  box-shadow: 3px 1.5px 1.5px rgba(153, 192, 187, 0.59);
+  border: 10px solid rgba(117, 219, 205, 0.59);
+  border-radius: 30px;
+}
+
+.nadpis-omne {
+  padding-left: 1rem;
+}
+
+.omne-fotka {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  max-height: 30rem;
+
+  border-radius: 30px;
+  filter: grayscale(100%) brightness(1.1) contrast(1.1);
+  transition: filter 0.3s ease;
+}
+
+.omne-fotka:hover {
+  filter: grayscale(0%);
+}
+
+.block-omne-vlevo p {
+  max-width: 40ch;
+  margin-bottom: 1rem;
+}

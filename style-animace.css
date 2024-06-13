@@ -1,0 +1,10 @@
+@keyframes backround-fade-in {
+  0% {
+    background: hsla(172, 59%, 66%, 0);
+    box-shadow: 3px 1.5px 1.5px hsla(172, 24%, 68%, 0);
+  }
+  30% {
+    background: hsla(172, 59%, 66%, 0.1);
+    box-shadow: 3px 1.5px 1.5px hsla(172, 24%, 68%, 0.59);
+  }
+}

@@ -1,106 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
+    <title>Eva Kratochvílová, UX designérka</title>
+    <meta
+      name="description"
+      content="Portfolio UX designérky Evy Kratochvílové"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-animace.css" />
+    <link rel="stylesheet" href="style-header.css" />
+    <link rel="stylesheet" href="style-prace.css" />
+    <link rel="stylesheet" href="style-omne.css" />
   </head>
   <body>
-    <header>
-      <h1>EVA KRATOCHVÍLOVÁ</h1>
-      <h2>UX Designer</h2>
-    </header>
-    <main>
-      <section class="contact">
-        <div class="container">
-          <div class="email">
+    <div class="wrap">
+      <header>
+        <div class="hero">
+          <h1>EVA KRATOCHVÍLOVÁ</h1>
+          <h2>UX Designer</h2>
+        </div>
+        <div class="contact">
+          <a
+            href="mailto:kratochvilova.eva1@gmail.com"
+            class="email"
+            title="Napište mi email"
+          >
             <img src="mail.png" alt="ikona mail" />
-            <span>kratochvilova.eva1@gmail.com</span>
-          </div>
-          <div class="telefon">
+            <span>kratochvilova.eva1<wbr />@gmail.com</span>
+          </a>
+          <a href="tel:00420604317102" class="telefon" title="Zavolejte mi">
             <img src="WA.png" alt="ikona telefon" />
             <span>+420 604 317 102</span>
-          </div>
+          </a>
         </div>
-      </section>
-      <section class="mojeprace">
-        <button>MOJE PRÁCE</button>
-
-        <div class="mojeprace-bloky">
-          <div class="block1">
-            <h3>KARTY</h3>
-            <img
-              src="PDP karta .jpg"
-              alt="fotka PDP"
-              class="PDP"
-            />
-            <img
-              src="kartadum.jpg"
-              alt="fotka karty domu"
-              class="DUM"
-              
-            />
-          </div>
-          <div class="block2">
-            <h4>HRA</h4>
-            <img
-              src="hra .jpg"
-              alt="fotka hry"
-              class="HRA"
-             
-            />
+      </header>
+      <main>
+        <section class="mojeprace">
+          <div class="nadpis-wrap">
+            <h2>Moje práce</h2>
           </div>
 
-          <div class="block3">
-            <h5>VYSKAKOVACÍ OKNO & KROKY</h5>
-            <img
-              src="navs.jpg"
-              alt="fotka pop up"
-              class="KROKY"
-             
-            />
-            <img
-              src="vyskakovaci .jpg"
-              alt="fotka kroky"
-              class="POPUP"
-             
-            />
+          <div class="mojeprace-bloky">
+            <div class="block">
+              <h3>Karty</h3>
+              <div class="obrazky-wrap">
+                <img src="PDP-karta.jpg" alt="fotka PDP" class="PDP" />
+                <img
+                  src="kartadum.jpg"
+                  alt="fotka karty domu"
+                  class="DUM obrazek-s-paddingem"
+                />
+              </div>
+            </div>
+            <div class="block">
+              <h3>Hra</h3>
+              <img src="hra.jpg" alt="fotka hry" class="HRA" />
+            </div>
+
+            <div class="block">
+              <h3>Vyskakovací okno & kroky</h3>
+              <div class="obrazky-wrap obrazky-wrap-horizontalni">
+                <img src="navs.jpg" alt="fotka pop up" class="KROKY" />
+                <img src="vyskakovaci.jpg" alt="fotka kroky" class="POPUP" />
+              </div>
+            </div>
+            <div class="block">
+              <h3>Aplikace na cvičení</h3>
+              <img
+                src="aplikace.jpg"
+                alt="fotka aplikace"
+                class="APPKA obrazek-s-paddingem"
+              />
+            </div>
           </div>
-          <div class="block4">
-            <h6>APLIKACE NA CVIČENÍ</h6>
-            <img
-              src="aplikace.jpg"
-              alt="fotka aplikace"
-              class="APPKA"
-            />
+        </section>
+        <section class="omne">
+          <div class="block-omne">
+            <div class="block-omne-vlevo">
+              <div class="nadpis-wrap nadpis-omne">
+                <h2>O mně</h2>
+              </div>
+              <p>
+                Ahoj 🙋‍♀️ Jsem začínající UX designérka, právě jsem dokončila
+                intenzivní půl roční kurz UX designu v Brně.
+              </p>
+              <p>
+                Na designování mě baví hlavně to, že můžu projevit kreativitu,
+                kterou ve svém současném office jobu moc nevyužívám. Určitě bych
+                se chtěla v této oblasti dále rozvíjet.
+              </p>
+              <p>
+                Ve volném čase mě můžete potkat nejčastěji ve fitku nebo na
+                kole, protože miluji sport 💪
+              </p>
+            </div>
+            <div class="block-omne-vpravo">
+              <img
+                class="block-omne-vpravo omne-fotka"
+                src="FOTKA.png"
+                alt="profilova-fotka"
+                class="omne-fotka"
+                title="Ahoj! :)"
+              />
+            </div>
           </div>
-        </div>
-      </section>
-      <section class="OMNE">
-        <div class="block-omne">
-          <div class="block-omne-vlevo">
-            <button class="NADPIS">O MNĚ</button>
-            <p>
-              Ahoj 🙋‍♀️ Jsem začínající UX designérka, právě jsem dokončila
-              intenzivní půl roční kurz UX designu v Brně. Na designování mě
-              baví hlavně to, že můžu projevit kreativitu, kterou ve svém
-              současném office jobu moc nevyužívám. Určitě bych se chtěla v této
-              oblasti dále rozvíjet. Ve volném čase mě můžete potkat nejčastěji
-              ve fitku nebo na kole, protože miluji sport 💪
-            </p>
-          </div>
-          <div class="block-omne-vpravo">
-            <img src="FOTKA2.png" alt="profilova-fotka" class="FOTKA" />
-          </div>
-        </div>
-      </section>
-    </main>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
